@@ -751,8 +751,8 @@
               <ref role="3uigEE" to="ctgy:~IdeaPluginDescriptor" resolve="IdeaPluginDescriptor" />
             </node>
             <node concept="2YIFZM" id="1HOG8KqTGMP" role="33vP2m">
-              <ref role="37wK5l" to="ctgy:~PluginManager.getPlugin(com.intellij.openapi.extensions.PluginId)" resolve="getPlugin" />
               <ref role="1Pybhc" to="ctgy:~PluginManager" resolve="PluginManager" />
+              <ref role="37wK5l" to="ctgy:~PluginManagerCore.getPlugin(com.intellij.openapi.extensions.PluginId)" resolve="getPlugin" />
               <node concept="2YIFZM" id="1HOG8KqTGMQ" role="37wK5m">
                 <ref role="37wK5l" to="9ti4:~PluginId.getId(java.lang.String)" resolve="getId" />
                 <ref role="1Pybhc" to="9ti4:~PluginId" resolve="PluginId" />
@@ -1511,7 +1511,7 @@
               <ref role="3cqZAo" node="7xsJPFCeIsy" resolve="getDependencyClassLoaders" />
             </node>
             <node concept="liA8E" id="7xsJPFCeV3F" role="2OqNvi">
-              <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+              <ref role="37wK5l" to="t6h5:~Method.setAccessible(boolean)" resolve="setAccessible" />
               <node concept="3clFbT" id="7xsJPFCeVzt" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1632,7 +1632,7 @@
               <ref role="3cqZAo" node="5wv8I7hhr_R" resolve="supportField" />
             </node>
             <node concept="liA8E" id="5wv8I7hh$Aw" role="2OqNvi">
-              <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+              <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
               <node concept="3clFbT" id="5wv8I7hh$N_" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1689,7 +1689,7 @@
               <ref role="3cqZAo" node="5wv8I7hhQUw" resolve="classPathItemField" />
             </node>
             <node concept="liA8E" id="5wv8I7hhWL2" role="2OqNvi">
-              <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+              <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
               <node concept="3clFbT" id="5wv8I7hhXd4" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1792,7 +1792,7 @@
                   <ref role="3cqZAo" node="5wv8I7higRX" resolve="childrenField" />
                 </node>
                 <node concept="liA8E" id="6J4kZVO1$Pz" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="6J4kZVO1$SG" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
